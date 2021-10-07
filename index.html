@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style/">
+  <title>Новостройки Воткинска</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">Новостройки Воткинска</a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">все</button>
+      </form>
+    </div>
+  </nav>
+  <h1>Новостройки Воткинска</h1>
+
+  <div class="card mb-3" style="max-width: 340px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/chaykovsky.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">ЖК "Чайковский"</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted"></small></p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Узнать больше!
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ЖК ЧАЙКОВСКИЙ — ЛУЧШИЕ УСЛОВИЯ ДЛЯ
+            КОМФОРТНОЙ ЖИЗНИ</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6></h6>
+          <img src="img/chaykovsky.jpg" class="img-fluid rounded-start" alt="..." width="350px">
+          <ul>
+          <li>Вы можете купить квартиру уже сейчас по выгодной программе от ведущих банков России.</li>
+          <li>Рассрочка до окончания строительства по индивидуальным условиям.</li>
+          <li>Вы счастливые родители, пришло время воспользоваться материнским капиталом!</li>
+          <li>Все сделки мы реализуем через счета эскроу. Эскроу — это специальный счёт для безопасного проведения расчётов между покупателем и продавцом.</li>
+          </ul>
+
+          
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
